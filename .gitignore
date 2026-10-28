@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+
+# Python cache & weights
+__pycache__/
+*.py[cod]
+ai-service/models/*.pth
+
+# Build output
+dist/
+build/

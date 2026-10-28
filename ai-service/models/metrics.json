@@ -1,0 +1,26 @@
+{
+  "best_val_acc": 0.916,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.5971150560038431,
+      "val_acc": 0.82,
+      "recall": {
+        "authentic": 0.6864406779661016,
+        "ai_generated": 0.9393939393939394
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.3467242047190666,
+      "val_acc": 0.916,
+      "recall": {
+        "authentic": 0.8983050847457628,
+        "ai_generated": 0.9318181818181818
+      }
+    }
+  ],
+  "train_images": 2250,
+  "val_images": 250,
+  "synthetic": false
+}

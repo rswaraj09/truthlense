@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@75..150,500..800&family=Public+Sans:wght@400;500;600&display=swap');
+
+:root {
+  --table: #d8dcdb;
+  --paper: #f5f6f4;
+  --ink: #14181b;
+  --muted: #5b6468;
+  --line: #b9c0c0;
+  --signal: #2447d1;
+  --real: #17795a;
+  --ai: #b3305f;
+  --mixed: #9a640a;
+  --display: 'Anybody', 'Arial Narrow', sans-serif;
+  --body: 'Public Sans', system-ui, sans-serif;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--table);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--signal);
+  outline-offset: 2px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
